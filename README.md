@@ -38,22 +38,22 @@ bash
 
 #pip install numpy pandas scikit-learn opencv-python matplotlib keras tensorflow
 
-Dataset
+**Dataset
 The dataset used is the "Dogs vs. Cats" dataset from Kaggle. Ensure you have the dataset downloaded and extracted in the following path: C:/Users/ASUS/Documents/Prodigy_Tasks/Dataset/train.
 
-Preprocessing
+**Preprocessing
 The preprocessing steps include reading the images, resizing them to a uniform size, normalizing the pixel values, and labeling them as either cat (0) or dog (1).
 
-Model Architecture
+**Model Architecture
 We use a Pipeline that includes PCA for dimensionality reduction and an SVM for classification:
 
-Training
+**Training
 Split the dataset into training and testing sets and fit the pipeline:
 
-Evaluation
+**Evaluation
 Evaluate the model using accuracy score, confusion matrix, and classification report:
 
-Saving the Model
+**Saving the Model
 Save the trained model using joblib:
 ------------------------------------------------------------------------------------------
 Conclusion
