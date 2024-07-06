@@ -2,77 +2,42 @@
 Implement a Support Vector Machine (SVM) to Classify Images of Cats and Dogs from the Kaggle Dataset
 
 
-Here is the detailed documentation for the task submission on a GitHub repository:
 
-Task: Implement a Support Vector Machine (SVM) to Classify Images of Cats and Dogs from the Kaggle Dataset
-Table of Contents
-Introduction
-Installation
-Dataset
-Preprocessing
-Model Architecture
-Training
-Evaluation
-Saving the Model
-Conclusion
-File Structure
-References
-Introduction
+# Implement a Support Vector Machine (SVM) to Classify Images of Cats and Dogs from the Kaggle Dataset
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Dataset](#dataset)
+- [Preprocessing](#preprocessing)
+- [Model Architecture](#model-architecture)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [Saving the Model](#saving-the-model)
+- [Conclusion](#conclusion)
+- [File Structure](#file-structure)
+- [References](#references)
+
+## Introduction
 This project aims to classify images of cats and dogs using a Support Vector Machine (SVM) model. The dataset used for this task is sourced from Kaggle. The steps include data loading, preprocessing, model training, evaluation, and saving the trained model.
 
-Installation
+## Installation
 To run this project, you need the following libraries:
 
-numpy
-pandas
-scikit-learn
-opencv-python
-matplotlib
-keras
-tensorflow
+- `numpy`
+- `pandas`
+- `scikit-learn`
+- `opencv-python`
+- `matplotlib`
+- `keras`
+- `tensorflow`
+
 You can install these dependencies using pip:
 
 bash
-Copier le code
-pip install numpy pandas scikit-learn opencv-python matplotlib keras tensorflow
-Dataset
-The dataset used is the "Dogs vs. Cats" dataset from Kaggle. Ensure you have the dataset downloaded and extracted in the following path: C:/Users/<XXXX>/<YYYYY>/Prodigy_Tasks/Dataset/train.
 
+#pip install numpy pandas scikit-learn opencv-python matplotlib keras tensorflow
 
-Here is the detailed documentation for the task submission on a GitHub repository:
-
-Task: Implement a Support Vector Machine (SVM) to Classify Images of Cats and Dogs from the Kaggle Dataset
-Table of Contents
-Introduction
-Installation
-Dataset
-Preprocessing
-Model Architecture
-Training
-Evaluation
-Saving the Model
-Conclusion
-File Structure
-References
--------------------------------------------------------------------------------
-Introduction
-This project aims to classify images of cats and dogs using a Support Vector Machine (SVM) model. The dataset used for this task is sourced from Kaggle. The steps include data loading, preprocessing, model training, evaluation, and saving the trained model.
-
-Installation
-To run this project, you need the following libraries:
-
-numpy
-pandas
-scikit-learn
-opencv-python
-matplotlib
-keras
-tensorflow
-You can install these dependencies using pip:
-
-bash
-Copier le code
-pip install numpy pandas scikit-learn opencv-python matplotlib keras tensorflow
 Dataset
 The dataset used is the "Dogs vs. Cats" dataset from Kaggle. Ensure you have the dataset downloaded and extracted in the following path: C:/Users/ASUS/Documents/Prodigy_Tasks/Dataset/train.
 
